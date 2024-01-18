@@ -1,0 +1,29 @@
+.list{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 26px;
+  width: 500px;
+    border: 1px solid black;
+      padding: 20px;
+}
+
+.list li{
+  display: flex;
+justify-content: space-between;
+}
+
+.deleteBtn{
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+  margin-left: 15px;
+  border-radius: 5px;
+    background-color: rgb(81, 156, 243);
+    color: white;
+    border-color: white;
+}
+
+.deleteBtn:hover{
+  scale: 1.1;
+}

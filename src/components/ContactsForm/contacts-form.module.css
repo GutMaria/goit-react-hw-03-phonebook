@@ -1,0 +1,42 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid black;
+  padding: 20px;
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.wrap{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.wrap input{
+  width: 400px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 24px;
+  padding: 0 10px;
+}
+
+.btn {
+  display: block;
+  width: 200px;
+  height: 40px;
+  font-size: 22px;
+  border-radius: 5px;
+  background-color: rgb(81, 156, 243);
+  color: white;
+  border-color: white;
+}
+
+.btn:hover{
+  /* scale: 1.1; */
+  background-color: #b1d3f3;
+  color: rgb(30, 111, 204) ;
+  border: 1px solid rgb(30, 111, 204);
+}
+
